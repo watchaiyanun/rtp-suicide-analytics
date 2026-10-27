@@ -368,7 +368,7 @@
                             <div class="flex-grow w-full relative"><div id="wrapper-casesByRankChart" class="relative w-full h-full chart-inner-wrapper"><canvas id="casesByRankChart"></canvas></div></div>
                         </div>
                         <div class="stat-card p-5 flex flex-col border border-slate-100 h-[350px]">
-                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">ยศ (Title)</h3>
+                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">ยศ</h3>
                                 <div class="flex gap-2 items-center"><select id="limit-title" class="text-xs border-none bg-slate-100 rounded-lg px-2 py-1 outline-none font-medium chart-limit-toggle" data-target="title"><option value="all" selected>ทั้งหมด</option><option value="10">Top 10</option></select><button onclick="openFullscreenChart('wrapper-casesByTitleChart', 'ยศ')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
                             </div>
                             <div class="flex-grow w-full relative custom-scrollbar"><div id="wrapper-casesByTitleChart" class="relative w-full h-full chart-inner-wrapper"><canvas id="casesByTitleChart"></canvas></div></div>
@@ -376,7 +376,7 @@
                         
                         <div class="stat-card p-5 flex flex-col border border-slate-100 lg:col-span-3 h-[400px]">
                             <div class="flex justify-between items-center mb-4">
-                                <h3 class="font-semibold text-slate-700 text-sm">อายุ (การกระจายตัว)</h3>
+                                <h3 class="font-semibold text-slate-700 text-sm">อายุ</h3>
                                 <div class="flex gap-2 items-center">
                                     <select id="age-group-toggle" class="text-xs border-none bg-slate-100 text-rtp-navy rounded-lg px-3 py-1.5 outline-none font-medium cursor-pointer shadow-sm"><option value="grouped">จัดกลุ่มช่วงอายุ (10 ปี)</option><option value="raw">แยกตามอายุจริงทุกช่วงวัย</option></select>
                                     <button onclick="openFullscreenChart('wrapper-casesByAgeChart', 'อายุ')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button>
@@ -386,17 +386,17 @@
                         </div>
 
                         <div class="stat-card p-5 flex flex-col border border-slate-100 lg:col-span-3 h-[400px]">
-                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">ปัจจัยกระตุ้น (คลิกเพื่อ Filter)</h3><button onclick="openFullscreenChart('wrapper-casesByTriggerChart', 'ปัจจัยกระตุ้น')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
+                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">ปัจจัยกระตุ้น</h3><button onclick="openFullscreenChart('wrapper-casesByTriggerChart', 'ปัจจัยกระตุ้น')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
                             <div class="flex-grow w-full relative custom-scrollbar"><div id="wrapper-casesByTriggerChart" class="relative w-full h-full chart-inner-wrapper"><canvas id="casesByTriggerChart"></canvas></div></div>
                         </div>
                         <div class="stat-card p-5 flex flex-col border border-slate-100 lg:col-span-3 h-[400px]">
-                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">สายงาน (คลิกเพื่อ Filter)</h3>
+                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">สายงาน</h3>
                                 <div class="flex gap-2 items-center"><select id="limit-department" class="text-xs border-none bg-slate-100 rounded-lg px-2 py-1 outline-none font-medium chart-limit-toggle" data-target="department"><option value="all" selected>ทั้งหมด</option><option value="10">Top 10</option></select><button onclick="openFullscreenChart('wrapper-casesByDeptChart', 'สายงาน')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
                             </div>
                             <div class="flex-grow w-full relative custom-scrollbar"><div id="wrapper-casesByDeptChart" class="relative w-full h-full chart-inner-wrapper"><canvas id="casesByDeptChart"></canvas></div></div>
                         </div>
                         <div class="stat-card p-5 flex flex-col border border-slate-100 lg:col-span-3 h-[400px]">
-                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">พฤติการณ์/วิธีการ (คลิกเพื่อ Filter)</h3><button onclick="openFullscreenChart('wrapper-casesByMethodChart', 'พฤติการณ์ (วิธีการ)')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
+                            <div class="flex justify-between items-center mb-4"><h3 class="font-semibold text-slate-700 text-sm">พฤติการณ์/วิธีการ</h3><button onclick="openFullscreenChart('wrapper-casesByMethodChart', 'พฤติการณ์ (วิธีการ)')" class="text-slate-400 hover:text-rtp-navy bg-slate-50 p-1.5 rounded-lg"><i class="fas fa-expand-alt"></i></button></div>
                             <div class="flex-grow w-full relative custom-scrollbar"><div id="wrapper-casesByMethodChart" class="relative w-full h-full chart-inner-wrapper"><canvas id="casesByMethodChart"></canvas></div></div>
                         </div>
                     </div>
@@ -1474,11 +1474,16 @@
             if (!wrapper || currentExpandedWrapperId === wrapperId) return;
             if (isHorizontal && (type === 'bar' || type === 'line')) {
                 const minHeightPerItem = 35; const calculatedHeight = itemCount * minHeightPerItem + 60; 
-                wrapper.style.height = calculatedHeight > 250 ? `${calculatedHeight}px` : '100%'; wrapper.style.width = '100%';
+                wrapper.style.height = calculatedHeight > 250 ? `${calculatedHeight}px` : 'calc(100% - 45px)'; 
+                wrapper.style.width = '100%';
             } else if (!isHorizontal && (type === 'bar' || type === 'line')) {
                 const minWidthPerItem = 35; const calculatedWidth = itemCount * minWidthPerItem + 40;
-                wrapper.style.width = calculatedWidth > 350 ? `${calculatedWidth}px` : '100%'; wrapper.style.height = '100%';
-            } else { wrapper.style.width = '100%'; wrapper.style.height = '100%'; }
+                wrapper.style.width = calculatedWidth > 350 ? `${calculatedWidth}px` : '100%'; 
+                wrapper.style.height = 'calc(100% - 45px)';
+            } else { 
+                wrapper.style.width = '100%'; 
+                wrapper.style.height = 'calc(100% - 45px)'; // หักลบความสูงของกล่องข้อความ กราฟจะไม่ตกขอบ
+            }
         }
 
         function openFullscreenChart(wrapperId, title) {
@@ -1728,7 +1733,6 @@
             
             let bgColors = isBar && !isLine ? data.data.map(val => val === maxVal && val > 0 ? '#9f1239' : '#0b1120') : data.data.map((_, i) => pieColors[i % pieColors.length]);
             
-            // 1. เพิ่มการตั้งค่าสีและขนาดของจุด สำหรับกราฟเส้น (Line Chart)
             let pointBgColors = isLine ? data.data.map(v => (v === maxVal && v > 0) ? '#9f1239' : '#fff') : undefined;
             let pointBorderColors = isLine ? data.data.map(v => (v === maxVal && v > 0) ? '#9f1239' : '#0b1120') : undefined;
             let pointRadii = isLine ? data.data.map(v => (v === maxVal && v > 0) ? 6 : 3) : undefined;
@@ -1746,19 +1750,19 @@
                         borderWidth: isBar && !isLine ? 0 : 2, 
                         fill: isLine, 
                         tension: 0.3,
-                        pointBackgroundColor: pointBgColors,          // ใช้การตั้งค่าสีจุด
-                        pointBorderColor: pointBorderColors,          // ใช้การตั้งค่าขอบจุด
-                        pointRadius: pointRadii,                      // ขยายขนาดจุดถ้าเป็นค่าสูงสุด
+                        pointBackgroundColor: pointBgColors,
+                        pointBorderColor: pointBorderColors,
+                        pointRadius: pointRadii,
                         pointHoverRadius: isLine ? 8 : undefined 
                     }] 
                 },
                 options: { 
                     indexAxis: horizontal ? 'y' : 'x', responsive: true, maintainAspectRatio: false, 
-                    layout: { padding: { top: 30, right: isBar && horizontal ? 60 : 20, bottom: 10, left: 10 } }, 
+                    // ลด Padding ด้านบนของ Pie Chart ลงจาก 30 เหลือ 10
+                    layout: { padding: { top: isBar ? 30 : 10, right: isBar && horizontal ? 60 : 20, bottom: 10, left: 10 } }, 
                     plugins: { 
                         legend: { display: (!isBar && !isLine), position:'right', labels:{usePointStyle:true, font:{family:"'Kanit'"}} }, 
                         datalabels: { 
-                            // 2. ปรับตัวเลขบนกราฟ (Datalabels) ให้เป็นสีแดงตามจุด
                             color: isLine ? (ctx => ctx.dataset.data[ctx.dataIndex] === maxVal ? '#9f1239' : '#475569') : (isBar ? '#475569' : '#fff'), 
                             anchor: isBar ? 'end' : 'center', align: isBar ? (horizontal?'right':'top') : 'center', font:{weight:'bold', size:10}, 
                             display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0 ? 'auto' : false,
